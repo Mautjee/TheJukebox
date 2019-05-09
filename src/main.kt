@@ -1,4 +1,6 @@
 fun main() {
     println("Hallo bas")
-    readLine()
+    val userinput = readLine()
+
+    println(userinput)
 }
