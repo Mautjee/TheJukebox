@@ -2,14 +2,129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68e6e6b0-50c1-447d-949b-119c39825dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/androidTest/java/com/sugarpeanut/thejukebox/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/searchResultRaw.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/songsearchrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/test/java/com/sugarpeanut/thejukebox/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.xcworkspace/xcuserdata/mauro.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/xcuserdata/mauro.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/TheJukebox.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Artist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/ExternalIds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/ExternalUrls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/ExternalUrlsX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/ExternalUrlsXX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Playlist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Song.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/Tracks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/Models/searchResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/MySession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4$1$invokeSuspend$$inlined$get$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Playlist.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Song.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/dataClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/songResultRaw.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/PlaylistTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TheJukebox.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TheJukebox.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TheJukebox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TheJukebox.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheJukebox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheJukebox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OauthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OauthApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searchResult.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +132,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -26,22 +140,75 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/dataClasses.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/songResultRaw.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Playlist.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Models/PlaylistTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding>
+                <element signature="e#16#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Song.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,129 +217,40 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/searchResult.kt" />
+        <option value="$PROJECT_DIR$/src/searchArtist.kt" />
+        <option value="$PROJECT_DIR$/src/searchTrack.kt" />
+        <option value="$PROJECT_DIR$/src/TestJson.kt" />
+        <option value="$PROJECT_DIR$/src/Models/foundTracks.kt" />
+        <option value="$PROJECT_DIR$/test/Models/PlaylistTest.java" />
+        <option value="$PROJECT_DIR$/test/Models/PlaylistTest.kt" />
+        <option value="$PROJECT_DIR$/src/Test.kt" />
+        <option value="$PROJECT_DIR$/test/TestKtTest.java" />
+        <option value="$PROJECT_DIR$/test/TestKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/Models/songResultRaw.kt" />
+        <option value="$PROJECT_DIR$/src/Models/searchResultRaw.kt" />
+        <option value="$PROJECT_DIR$/src/Models/Song.kt" />
+        <option value="$PROJECT_DIR$/src/Models/dataClasses.kt" />
+        <option value="$PROJECT_DIR$/src/Models/Playlist.kt" />
+        <option value="$PROJECT_DIR$/src/OauthApp.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules/TheJukebox.test.iml" />
-        <option value="$PROJECT_DIR$/.idea/modules/TheJukebox.main.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_auth_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_auth_basic_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_cio_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_core_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_core_jvm_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_jetty_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_client_tests_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_freemarker_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_gson_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_html_builder_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_http_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_http_cio_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_http_jvm_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_jackson_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_network_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_network_tls_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_core_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_host_common_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_jetty_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_netty_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_servlet_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_test_host_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_server_tests_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_utils_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_utils_jvm_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_ktor_ktor_websockets_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http2_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_24_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_alpn_alpn_api_1_1_3_v20160715.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_client_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_common_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_hpack_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_http_client_transport_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_server_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_client_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_java_client_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_java_server_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_openjdk8_client_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_openjdk8_server_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_server_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_continuation_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlets_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_11_v20180605.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_28.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_css_1_0_0_pre_31_kotlin_1_2_41.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_css_jvm_1_0_0_pre_31_kotlin_1_2_41.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_atomicfu_0_12_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_atomicfu_common_0_12_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_io_0_1_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_io_jvm_0_1_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_1_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_html_jvm_0_6_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_io_0_1_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_io_jvm_0_1_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_mortbay_jetty_alpn_alpn_boot_8_1_13_v20181017.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="133" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="81" />
+    <option name="y" value="51" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,22 +263,61 @@
               <item name="TheJukebox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="TheJukebox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheJukebox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheJukebox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheJukebox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheJukebox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheJukebox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="Models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.OauthAppKt">
     <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="TheJukebox.main" />
       <option name="VM_PARAMETERS" />
@@ -228,8 +345,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OauthAppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="TheJukebox.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="OauthAppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJsonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="TheJukebox.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestJsonKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="TheJukebox.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OauthAppKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.TestJsonKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -244,60 +403,166 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557432467369</updated>
-      <workItem from="1557432469533" duration="268000" />
+      <workItem from="1557432469533" duration="722000" />
+      <workItem from="1557487569007" duration="4768000" />
+      <workItem from="1557504035454" duration="1391000" />
+      <workItem from="1557507011577" duration="182000" />
+      <workItem from="1557507225784" duration="9132000" />
+      <workItem from="1557661047474" duration="3878000" />
+      <workItem from="1557825395814" duration="181000" />
+      <workItem from="1557837416638" duration="3376000" />
+      <workItem from="1557910637352" duration="6233000" />
+      <workItem from="1558022593495" duration="764000" />
+      <workItem from="1558023736776" duration="132000" />
+      <workItem from="1558220125234" duration="14936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268000" />
+    <option name="totallyTimeSpent" value="45695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="133" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287841" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33622828" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35235733" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32630274" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;Mauro&quot;</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-gson/1.1.3/b1ef7ff9056438748671c5cea7d549de9bb23039/ktor-gson-1.1.3-sources.jar!/jvmMain/io/ktor/gson/GsonSupport.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main.kt" />
+    <entry file="file://$PROJECT_DIR$/src/Models/foundTracks.kt" />
+    <entry file="file://$PROJECT_DIR$/src/TestJson.kt" />
+    <entry file="file://$PROJECT_DIR$/test/TestKtTest.kt" />
+    <entry file="file://$PROJECT_DIR$/src/Test.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.3/82d1b8fb75e4eaa0bdb909f7f5a326a47564b112/ktor-http-jvm-1.1.3-sources.jar!/commonMain/io/ktor/http/Parameters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/searchResultRaw.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/dataClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Song.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/songResultRaw.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Playlist.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Models/PlaylistTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#16#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
         </state>
       </provider>
     </entry>
