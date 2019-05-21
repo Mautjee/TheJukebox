@@ -1,42 +1,37 @@
 package com.sugarpeanut.thejukebox
 
-import android.content.Intent
-import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.google.gson.GsonBuilder
 import com.sugarpeanut.thejukebox.Models.searchResult
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_search.*
 import okhttp3.*
-
 import java.io.IOException
 
-class MainActivity : AppCompatActivity() {
+class Search : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        //setSupportActionBar(findViewById(R.id.my_toolbar))
+        setContentView(R.layout.activity_search)
+        recyclresViw_search.layoutManager = LinearLayoutManager(this)
 
-        //recyclresViw_main.setBackgroundColor(Color.BLUE)
-        recyclresViw_main.layoutManager = LinearLayoutManager(this)
-
-        getUpdatePlaylist()
 
 
     }
-    fun searchForSong(view: View){
-        startActivity(Intent(this,Search::class.java))
-    }
-    fun getUpdatePlaylist(){
-        fetchJson()
-    }
-    fun fetchJson(){
-        println("Attempting to get the full playlist")
 
-        val url = "http://10.0.2.2:8080/playlist/getall"
+    fun searchSong(view:View){
+        val searchWord = searchWordText.text.toString()
+        fetchJson(searchWord)
+    }
+
+    fun fetchJson(serchWord:String){
+        println("Attempting to Fetch JSON")
+
+
+        val url = "http://10.0.2.2:8080/search/$serchWord"
+
 
         val request = Request.Builder().url(url).build()
 
@@ -46,15 +41,15 @@ class MainActivity : AppCompatActivity() {
 
             override fun onResponse(call: Call, response: Response) {
                 val body = response.body()?.string()
-               // println(body)
+                // println(body)
 
                 val gson = GsonBuilder().create()
 
-                val result = gson.fromJson(body,searchResult::class.java)
+                val result = gson.fromJson(body, searchResult::class.java)
 
 
                 runOnUiThread{
-                    recyclresViw_main.adapter = mainAdapter(result)
+                    recyclresViw_search.adapter = mainAdapter(result)
                 }
             }
 
