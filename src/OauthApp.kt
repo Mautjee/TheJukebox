@@ -81,62 +81,15 @@ fun main(args: Array<String>) {
 
                 
             }
-
-            route("/user"){
-                post("/login") {
-                }
-            }
-            authenticate("spotify-oauth") {
-                route("/user/login/spotify") {
-                    handle {
-                        accesTokenSpotify = call.authentication.principal<OAuthAccessTokenResponse.OAuth2>()
-                            ?: error("No principal")
-
-                        call.respondRedirect("/")
-                    }
-                }
-            }
-
-
-
-            route("/search"){
-
-                get("/{searchWord}") {
-                    val searchvar = call.parameters["searchWord"]!!.toString()
-                    val json =
-                        HttpClient(CIO).get<String>("https://api.spotify.com/v1/search?q='$searchvar'&type=track&market=NL&limit=10") {
-                            header("Authorization", "Bearer ${accesTokenSpotify?.accessToken}")
-                        }
-
-
-                    val searchResult = gson.fromJson(json, searchResult::class.java)
-
-
-
-                    //val song = Song(1,searchResult.tracks.items[0].name)
-
-                    call.respondText(json)
-                }
-            }
             route("/playlist"){
                 get("/getall"){
 
-                    call.respond(playlist.getplaylist())
+                    call.respond(playlist)
                 }
                 post("/addsong") {
 
-                    val obj: addSong = call.receive()
-
-
-                   val result =  HttpClient(CIO).get<String>(obj.songLink) {
-                        header("Authorization", "Bearer ${accesTokenSpotify?.accessToken}")
-                    }
-                    val songresult = gson.fromJson(result,songRaw::class.java)
-
-                    val durationINSeconds = songresult.duration_ms / 1000
-
-                    val song = Song(songresult.id,songresult.name,songresult.uri,songresult.album.images[0],songresult.artists[0].name,durationINSeconds)
-
+                    val addSong: addSong = call.receive()
+                    val song:Song = gson.fromJson(addSong.songjson,Song::class.java)
                     playlist.addSong(song)
 
                     call.respondText("Song has been added")

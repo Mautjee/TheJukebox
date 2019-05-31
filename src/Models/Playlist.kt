@@ -3,17 +3,17 @@ package Models
 class Playlist(){
 
     private val playlistId = 0
-    private val _songs = mutableListOf<Song>()
+    private val songs = mutableListOf<Song>()
 
 
 
     fun getplaylist():List<Song>{
-        return _songs
+        return songs
     }
 
     fun addSong(song:Song){
         //if(_songs.any { it.songId != song.songId }){
-            _songs.add(song)
+            songs.add(song)
         //}else{
           //  println("Song already in playlist")
         //}
@@ -22,7 +22,7 @@ class Playlist(){
 
     fun likeASong(songId:String){
 
-       val song = _songs.find{ it.songId == songId }
+       val song = songs.find{ it.songId == songId }
 
         if (song != null) {
             song.likeASong()
@@ -32,7 +32,7 @@ class Playlist(){
     }
     fun dislikeASong(songId:String){
 
-        val song = _songs.find{ it.songId == songId }
+        val song = songs.find{ it.songId == songId }
 
         if (song != null) {
             song.dislikeSong()

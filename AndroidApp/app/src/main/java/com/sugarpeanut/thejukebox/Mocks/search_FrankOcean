@@ -1,0 +1,717 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Frank+Ocean&type=track&market=NL&offset=0&limit=10",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
+          "id" : "7CajNmpbOovFoOoasH2HaY",
+          "name" : "Calvin Harris",
+          "type" : "artist",
+          "uri" : "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1UIlzhqJLiA3f6OVw7QKn6"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1UIlzhqJLiA3f6OVw7QKn6",
+        "id" : "1UIlzhqJLiA3f6OVw7QKn6",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/24a63c5c743b4376b7b7d570cf4a83ea017382fd",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/61ff3036c3b9ed2ca3c39312928611dfe0ad85e8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/aed200900c7b25168c010737f6397ead2ac1f5a7",
+          "width" : 64
+        } ],
+        "name" : "Slide (feat. Frank Ocean & Migos)",
+        "release_date" : "2017-02-24",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:1UIlzhqJLiA3f6OVw7QKn6"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
+        "id" : "7CajNmpbOovFoOoasH2HaY",
+        "name" : "Calvin Harris",
+        "type" : "artist",
+        "uri" : "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6oMuImdp5ZcFhWP0ESe6mG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6oMuImdp5ZcFhWP0ESe6mG",
+        "id" : "6oMuImdp5ZcFhWP0ESe6mG",
+        "name" : "Migos",
+        "type" : "artist",
+        "uri" : "spotify:artist:6oMuImdp5ZcFhWP0ESe6mG"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 230813,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "GBARL1700262"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6gpcs5eMhJwax4mIfKDYQk",
+      "id" : "6gpcs5eMhJwax4mIfKDYQk",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Slide (feat. Frank Ocean & Migos)",
+      "popularity" : 75,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d3e8d7ced6e0f3844b8c0309a7d4baad511a3518?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6gpcs5eMhJwax4mIfKDYQk"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/623Ef2ZEB3Njklix4PC0Rs"
+        },
+        "href" : "https://api.spotify.com/v1/albums/623Ef2ZEB3Njklix4PC0Rs",
+        "id" : "623Ef2ZEB3Njklix4PC0Rs",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/aa8494ba3c4310746804cbc66435c861c4c37485",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/3f4505bb61644efc7141ea660c96eb167f04d1d5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a8e82d53e4de3fb4b7181e955307576bd2871013",
+          "width" : 64
+        } ],
+        "name" : "channel ORANGE (Explicit Version)",
+        "release_date" : "2012-01-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:623Ef2ZEB3Njklix4PC0Rs"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 200746,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USUM71202995"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5mphdlILgAq3vh1MSvAJTS"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5mphdlILgAq3vh1MSvAJTS",
+      "id" : "5mphdlILgAq3vh1MSvAJTS",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Thinkin Bout You",
+      "popularity" : 71,
+      "preview_url" : null,
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:5mphdlILgAq3vh1MSvAJTS"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3mH6qwIy9crq0I9YQbOuDf",
+        "id" : "3mH6qwIy9crq0I9YQbOuDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e22f959dae6f088b9c6614c4f777efacaf3544f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/14e795dfa0e03a59caa2411595175f09caaf19b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0e5415ebdb2045b7f53b936e8be3d3ae42a80b38",
+          "width" : 64
+        } ],
+        "name" : "Blonde",
+        "release_date" : "2016-08-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:3mH6qwIy9crq0I9YQbOuDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 184516,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QZ5C81600003"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3xKsf9qdS1CyvXSMEid6g8",
+      "id" : "3xKsf9qdS1CyvXSMEid6g8",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Pink + White",
+      "popularity" : 75,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3ebaac6d4686eea331d448a290941364b047b985?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:3xKsf9qdS1CyvXSMEid6g8"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
+          "id" : "7CajNmpbOovFoOoasH2HaY",
+          "name" : "Calvin Harris",
+          "type" : "artist",
+          "uri" : "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2HaqChIDc5go3qxVunBDK0"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2HaqChIDc5go3qxVunBDK0",
+        "id" : "2HaqChIDc5go3qxVunBDK0",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/5e9722f99e71ad424a3a8e46a4f7c5998460b885",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/c3bca5f6e386f6c524800eb269c8483ce69909bd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1166dcd37a4afe47d013fb46065556194fee81c3",
+          "width" : 64
+        } ],
+        "name" : "Funk Wav Bounces Vol.1",
+        "release_date" : "2017-06-30",
+        "release_date_precision" : "day",
+        "total_tracks" : 10,
+        "type" : "album",
+        "uri" : "spotify:album:2HaqChIDc5go3qxVunBDK0"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
+        "id" : "7CajNmpbOovFoOoasH2HaY",
+        "name" : "Calvin Harris",
+        "type" : "artist",
+        "uri" : "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6oMuImdp5ZcFhWP0ESe6mG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6oMuImdp5ZcFhWP0ESe6mG",
+        "id" : "6oMuImdp5ZcFhWP0ESe6mG",
+        "name" : "Migos",
+        "type" : "artist",
+        "uri" : "spotify:artist:6oMuImdp5ZcFhWP0ESe6mG"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 230813,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "GBARL1700262"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7tr2za8SQg2CI8EDgrdtNl"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7tr2za8SQg2CI8EDgrdtNl",
+      "id" : "7tr2za8SQg2CI8EDgrdtNl",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Slide (feat. Frank Ocean & Migos)",
+      "popularity" : 69,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d3e8d7ced6e0f3844b8c0309a7d4baad511a3518?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:7tr2za8SQg2CI8EDgrdtNl"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3mH6qwIy9crq0I9YQbOuDf",
+        "id" : "3mH6qwIy9crq0I9YQbOuDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e22f959dae6f088b9c6614c4f777efacaf3544f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/14e795dfa0e03a59caa2411595175f09caaf19b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0e5415ebdb2045b7f53b936e8be3d3ae42a80b38",
+          "width" : 64
+        } ],
+        "name" : "Blonde",
+        "release_date" : "2016-08-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:3mH6qwIy9crq0I9YQbOuDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 307151,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QZ5C81600009"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7eqoqGkKwgOaWNNHx90uEZ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7eqoqGkKwgOaWNNHx90uEZ",
+      "id" : "7eqoqGkKwgOaWNNHx90uEZ",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Nights",
+      "popularity" : 76,
+      "preview_url" : "https://p.scdn.co/mp3-preview/43abb77afc35b8eced064a1b062921a13f5c7b15?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 9,
+      "type" : "track",
+      "uri" : "spotify:track:7eqoqGkKwgOaWNNHx90uEZ"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3mH6qwIy9crq0I9YQbOuDf",
+        "id" : "3mH6qwIy9crq0I9YQbOuDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e22f959dae6f088b9c6614c4f777efacaf3544f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/14e795dfa0e03a59caa2411595175f09caaf19b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0e5415ebdb2045b7f53b936e8be3d3ae42a80b38",
+          "width" : 64
+        } ],
+        "name" : "Blonde",
+        "release_date" : "2016-08-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:3mH6qwIy9crq0I9YQbOuDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 249191,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QZ5C81600002"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2ZWlPOoWh0626oTaHrnl2a",
+      "id" : "2ZWlPOoWh0626oTaHrnl2a",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Ivy",
+      "popularity" : 75,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1faa6f5d71e4993a75450736b2b023ef5888f42f?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:2ZWlPOoWh0626oTaHrnl2a"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/623Ef2ZEB3Njklix4PC0Rs"
+        },
+        "href" : "https://api.spotify.com/v1/albums/623Ef2ZEB3Njklix4PC0Rs",
+        "id" : "623Ef2ZEB3Njklix4PC0Rs",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/aa8494ba3c4310746804cbc66435c861c4c37485",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/3f4505bb61644efc7141ea660c96eb167f04d1d5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a8e82d53e4de3fb4b7181e955307576bd2871013",
+          "width" : 64
+        } ],
+        "name" : "channel ORANGE (Explicit Version)",
+        "release_date" : "2012-01-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:623Ef2ZEB3Njklix4PC0Rs"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 234093,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM71207186"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4L7jMAP8UcIe309yQmkdcO"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4L7jMAP8UcIe309yQmkdcO",
+      "id" : "4L7jMAP8UcIe309yQmkdcO",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Lost",
+      "popularity" : 67,
+      "preview_url" : null,
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:4L7jMAP8UcIe309yQmkdcO"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6OGzmhzHcjf0uN9j7dYvZH"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6OGzmhzHcjf0uN9j7dYvZH",
+        "id" : "6OGzmhzHcjf0uN9j7dYvZH",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/04f0e2dc0381bbaeff099cfcd4fc32bcdfd23f1f",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/e7207c902d7faed8eabb269cfa323a8c75338f40",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/00f104370ff42b3d71b44f8cdb33aef70cfa6c6d",
+          "width" : 64
+        } ],
+        "name" : "Chanel",
+        "release_date" : "2017-03-10",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:6OGzmhzHcjf0uN9j7dYvZH"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 210285,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QZ5C81600019"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6Nle9hKrkL1wQpwNfEkxjh"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6Nle9hKrkL1wQpwNfEkxjh",
+      "id" : "6Nle9hKrkL1wQpwNfEkxjh",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Chanel",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1888bb2067ea1111ddb4a43d57d28473ec00383b?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6Nle9hKrkL1wQpwNfEkxjh"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3mH6qwIy9crq0I9YQbOuDf",
+        "id" : "3mH6qwIy9crq0I9YQbOuDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e22f959dae6f088b9c6614c4f777efacaf3544f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/14e795dfa0e03a59caa2411595175f09caaf19b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0e5415ebdb2045b7f53b936e8be3d3ae42a80b38",
+          "width" : 64
+        } ],
+        "name" : "Blonde",
+        "release_date" : "2016-08-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:3mH6qwIy9crq0I9YQbOuDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 314075,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QZ5C81600001"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/19YKaevk2bce4odJkP5L22"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/19YKaevk2bce4odJkP5L22",
+      "id" : "19YKaevk2bce4odJkP5L22",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Nikes",
+      "popularity" : 71,
+      "preview_url" : "https://p.scdn.co/mp3-preview/be2bc4aadde588c1a381e878497db1a165706b18?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:19YKaevk2bce4odJkP5L22"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+          "id" : "2h93pZq0e7k5yf4dywlkpM",
+          "name" : "Frank Ocean",
+          "type" : "artist",
+          "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3mH6qwIy9crq0I9YQbOuDf",
+        "id" : "3mH6qwIy9crq0I9YQbOuDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e22f959dae6f088b9c6614c4f777efacaf3544f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/14e795dfa0e03a59caa2411595175f09caaf19b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0e5415ebdb2045b7f53b936e8be3d3ae42a80b38",
+          "width" : 64
+        } ],
+        "name" : "Blonde",
+        "release_date" : "2016-08-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:3mH6qwIy9crq0I9YQbOuDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM",
+        "id" : "2h93pZq0e7k5yf4dywlkpM",
+        "name" : "Frank Ocean",
+        "type" : "artist",
+        "uri" : "spotify:artist:2h93pZq0e7k5yf4dywlkpM"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 249667,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QZ5C81600007"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5GUYJTQap5F3RDQiCOJhrS"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5GUYJTQap5F3RDQiCOJhrS",
+      "id" : "5GUYJTQap5F3RDQiCOJhrS",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Self Control",
+      "popularity" : 72,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ec76abf91ef45efe40fb8442e729f0d7b00facde?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:5GUYJTQap5F3RDQiCOJhrS"
+    } ],
+    "limit" : 10,
+    "next" : "https://api.spotify.com/v1/search?query=Frank+Ocean&type=track&market=NL&offset=10&limit=10",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 704
+  }
+}

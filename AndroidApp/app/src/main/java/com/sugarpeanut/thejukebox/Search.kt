@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.google.gson.GsonBuilder
+import com.sugarpeanut.thejukebox.Mocks.searchMocks
+import com.sugarpeanut.thejukebox.Models.SpotifyConnect
 import com.sugarpeanut.thejukebox.Models.searchResult
 import kotlinx.android.synthetic.main.activity_search.*
 import okhttp3.*
@@ -12,6 +14,7 @@ import java.io.IOException
 
 class Search : AppCompatActivity() {
 
+    val spotifyConnect = SpotifyConnect.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
@@ -23,17 +26,17 @@ class Search : AppCompatActivity() {
 
     fun searchSong(view:View){
         val searchWord = searchWordText.text.toString()
-        fetchJson(searchWord)
+        fetchJsonSpotify(searchWord)
     }
 
-    fun fetchJson(serchWord:String){
+    fun fetchJsonSpotify(serchWord:String){
         println("Attempting to Fetch JSON")
 
 
-        val url = "http://10.0.2.2:8080/search/$serchWord"
+        val url = "https://api.spotify.com/v1/search?q='$serchWord'&type=track&market=NL&limit=10"
 
 
-        val request = Request.Builder().url(url).build()
+        val request = Request.Builder().url(url).header("Authorization","Bearer ${spotifyConnect.getToken()}").build()
 
         val client = OkHttpClient()
 
@@ -49,7 +52,7 @@ class Search : AppCompatActivity() {
 
 
                 runOnUiThread{
-                    recyclresViw_search.adapter = mainAdapter(result)
+                    recyclresViw_search.adapter = searchAdapter(result)
                 }
             }
 
@@ -57,5 +60,13 @@ class Search : AppCompatActivity() {
                 println("Faild to execute" + e.message)
             }
         })
+    }
+
+    fun fetchJsonLocal(searchWord:String){
+        val gson = GsonBuilder().create()
+
+        val result = gson.fromJson(searchMocks.getJson(searchWord), searchResult::class.java)
+
+        recyclresViw_search.adapter = searchAdapter(result)
     }
 }

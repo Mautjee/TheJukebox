@@ -2,29 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68e6e6b0-50c1-447d-949b-119c39825dae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Search.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Mocks/searchJetFuel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Mocks/searchMocks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Mocks/search_Drake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Mocks/search_FrankOcean" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Mocks/search_MacMiller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/SpotifyConnect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/SpotifyService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/spotify-app-remote-release-0.6.1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/spotify-app-remote-release-0.6.1/spotify-app-remote-release-0.6.1.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/spotify-auth-release-1.1.0/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidApp/spotify-auth-release-1.1.0/spotify-auth-release-1.1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TheJukebox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TheJukebox.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.xcworkspace/xcuserdata/mauro.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/IOSApp/TheJukebox/TheJukebox.xcodeproj/project.xcworkspace/xcuserdata/mauro.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4$1$invokeSuspend$$inlined$get$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/MainAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Models.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Models.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Playlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Playlist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Song.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/Song.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/searchResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Models/searchResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/Search.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/searchAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sugarpeanut/thejukebox/searchAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/songmainrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/songmainrow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/songsearchrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/songsearchrow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Models/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Models/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Models/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Models/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Models/addSong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Models/addSong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$2$invokeSuspend$$inlined$get$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/OauthAppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/OauthAppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Playlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Playlist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Song.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Song.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/dataClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/dataClasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OauthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OauthApp.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+            <state relative-caret-position="206">
+              <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -59,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/Models/dataClasses.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -76,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Playlist.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="612">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -97,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Song.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+            <state relative-caret-position="324">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -134,18 +168,17 @@
         <option value="$PROJECT_DIR$/test/TestKtTest.kt" />
         <option value="$PROJECT_DIR$/src/Models/songResultRaw.kt" />
         <option value="$PROJECT_DIR$/src/Models/searchResultRaw.kt" />
+        <option value="$PROJECT_DIR$/src/Models/Playlist.kt" />
         <option value="$PROJECT_DIR$/src/Models/Song.kt" />
         <option value="$PROJECT_DIR$/src/Models/dataClasses.kt" />
-        <option value="$PROJECT_DIR$/src/Models/Playlist.kt" />
         <option value="$PROJECT_DIR$/src/OauthApp.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -155,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +223,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,17 +354,23 @@
       <workItem from="1558023736776" duration="132000" />
       <workItem from="1558220125234" duration="14936000" />
       <workItem from="1558437520061" duration="262000" />
-      <workItem from="1558452291423" duration="376000" />
+      <workItem from="1558452291423" duration="3656000" />
+      <workItem from="1558513799077" duration="2731000" />
+      <workItem from="1559042917262" duration="168000" />
+      <workItem from="1559044332419" duration="4289000" />
+      <workItem from="1559122336044" duration="2990000" />
+      <workItem from="1559147919069" duration="2765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46333000" />
+    <option name="totallyTimeSpent" value="62556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.234375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -341,8 +380,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287841" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33622828" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35235733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3346856" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35192698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,7 +391,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32630274" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32454363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,21 +412,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
-          <line>142</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
-          <line>124</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
-          <line>148</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/OauthApp.kt</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -402,40 +435,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-gson/1.1.3/b1ef7ff9056438748671c5cea7d549de9bb23039/ktor-gson-1.1.3-sources.jar!/jvmMain/io/ktor/gson/GsonSupport.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-gson/1.1.3/b1ef7ff9056438748671c5cea7d549de9bb23039/ktor-gson-1.1.3-sources.jar!/jvmMain/io/ktor/gson/GsonSupport.kt" />
     <entry file="file://$PROJECT_DIR$/src/main.kt" />
     <entry file="file://$PROJECT_DIR$/src/Models/foundTracks.kt" />
     <entry file="file://$PROJECT_DIR$/src/TestJson.kt" />
     <entry file="file://$PROJECT_DIR$/test/TestKtTest.kt" />
     <entry file="file://$PROJECT_DIR$/src/Test.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.3/82d1b8fb75e4eaa0bdb909f7f5a326a47564b112/ktor-http-jvm-1.1.3-sources.jar!/commonMain/io/ktor/http/Parameters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.3/82d1b8fb75e4eaa0bdb909f7f5a326a47564b112/ktor-http-jvm-1.1.3-sources.jar!/commonMain/io/ktor/http/Parameters.kt" />
     <entry file="file://$PROJECT_DIR$/src/Models/searchResultRaw.kt" />
-    <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/dataClasses.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/songResultRaw.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -445,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Playlist.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="612">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -462,8 +469,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Song.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        <state relative-caret-position="324">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/dataClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OauthApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
         </state>
       </provider>
     </entry>

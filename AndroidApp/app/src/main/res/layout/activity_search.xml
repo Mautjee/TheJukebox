@@ -22,8 +22,9 @@
             android:layout_width="262dp"
             android:layout_height="43dp"
             android:inputType="textPersonName"
-            android:text="Fill in search"
+            android:hint="Search for a song"
             android:ems="10"
+            android:imeActionLabel="Search"
             android:id="@+id/searchWordText" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent" style="@style/Widget.AppCompat.EditText"/>

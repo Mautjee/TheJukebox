@@ -4,34 +4,43 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.sugarpeanut.thejukebox.Models.searchResult
-import kotlinx.android.synthetic.main.songsearchrow.view.*
+import com.squareup.picasso.Picasso
+import com.sugarpeanut.thejukebox.Models.Playlist
+import kotlinx.android.synthetic.main.songmainrow.view.*
 
-class mainAdapter(val searchResult: searchResult):RecyclerView.Adapter<CustomViewHolder>(){
 
-    val songTitles = listOf<String>("First song title","Second song tilte", "Third song title")
+
+class mainAdapter(val playlist: Playlist):RecyclerView.Adapter<CustomViewHolder_main>(){
+
 
     // number of rows
     override fun getItemCount(): Int {
-        return searchResult.tracks.items.count()
+        return playlist.songs.count()
+
     }
 
-    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): CustomViewHolder {
+    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): CustomViewHolder_main {
         val layoutInflater = LayoutInflater.from(p0.context)
-        val cellForRo = layoutInflater.inflate(R.layout.songsearchrow,p0,false)
-        return CustomViewHolder(cellForRo)
+        val cellForRo = layoutInflater.inflate(R.layout.songmainrow,p0,false)
+        return CustomViewHolder_main(cellForRo)
     }
 
-    override fun onBindViewHolder(p0: CustomViewHolder, p1: Int) {
-        val song = searchResult.tracks.items.get(p1)
+    override fun onBindViewHolder(p0: CustomViewHolder_main, p1: Int) {
+        val song = playlist.songs.get(p1)
+
+
         p0.view.textview_songname.text = song.name
-        p0.view.textView_songartist.text = song.artists[0].name
-        p0.view.textView_songduration.text = song.duration_ms.toString()
+        p0.view.textView_songartist.text = song.artist
+        p0.view.textView_songlikes.text = song.getSongLikes().toString()
+        p0.view.textView_songduration.text = song.durationInSec.toString()
+
+        val albumcover = p0.view.imageView_albumcover
+       Picasso.get().load(song.image).into(albumcover)
 
 
     }
 }
 
-class CustomViewHolder(val view:View): RecyclerView.ViewHolder(view){
+class CustomViewHolder_main(val view:View): RecyclerView.ViewHolder(view){
 
 }

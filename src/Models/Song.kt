@@ -1,6 +1,6 @@
 package Models
 
-class Song(val songId: String,val name:String,val songUri:String,val image: Image,
+class Song(val songId: String,val name:String,val songlink:String,val image: String,
            val artist:String,val durationInSec:Int){
 
     private var songLikes:Int

@@ -1,0 +1,708 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=+jet+fuel&type=track&market=NL&offset=0&limit=10",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 345213,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801220"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2JmFRXaJrkAUD2cs6U20KG"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2JmFRXaJrkAUD2cs6U20KG",
+      "id" : "2JmFRXaJrkAUD2cs6U20KG",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel",
+      "popularity" : 68,
+      "preview_url" : "https://p.scdn.co/mp3-preview/230f60a0aedd5800beec1916fe1bdc3cf6cb6cae?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:2JmFRXaJrkAUD2cs6U20KG"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0G0RBNB2IT4AhCIMQ8qnos"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0G0RBNB2IT4AhCIMQ8qnos",
+          "id" : "0G0RBNB2IT4AhCIMQ8qnos",
+          "name" : "Guantanamo Bae",
+          "type" : "artist",
+          "uri" : "spotify:artist:0G0RBNB2IT4AhCIMQ8qnos"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4pvX2t3nwLiVPB7sI5Bbjy"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4pvX2t3nwLiVPB7sI5Bbjy",
+        "id" : "4pvX2t3nwLiVPB7sI5Bbjy",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4b736fc13b8f7a73f660f63ccea56c8b0c1d93fa",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/685a8d0646d9e1ba78339ac597d4342e40db1c1a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/7bfde86b7388163b7945ef65360b302783ab5137",
+          "width" : 64
+        } ],
+        "name" : "Jet Fuel",
+        "release_date" : "2019-03-31",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:4pvX2t3nwLiVPB7sI5Bbjy"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0G0RBNB2IT4AhCIMQ8qnos"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0G0RBNB2IT4AhCIMQ8qnos",
+        "id" : "0G0RBNB2IT4AhCIMQ8qnos",
+        "name" : "Guantanamo Bae",
+        "type" : "artist",
+        "uri" : "spotify:artist:0G0RBNB2IT4AhCIMQ8qnos"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 225000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QZAMM1751618"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6tBSpDPMr6BiaoTzOY8KBg"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6tBSpDPMr6BiaoTzOY8KBg",
+      "id" : "6tBSpDPMr6BiaoTzOY8KBg",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel",
+      "popularity" : 22,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bbd56fc0f46c9d175e2e59827c7748684c1a20d1?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6tBSpDPMr6BiaoTzOY8KBg"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4OBJLual30L7gRl5UkeRcT"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4OBJLual30L7gRl5UkeRcT",
+          "id" : "4OBJLual30L7gRl5UkeRcT",
+          "name" : "T.I.",
+          "type" : "artist",
+          "uri" : "spotify:artist:4OBJLual30L7gRl5UkeRcT"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4FADvCXok2GhepAWLE8Fs1"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4FADvCXok2GhepAWLE8Fs1",
+        "id" : "4FADvCXok2GhepAWLE8Fs1",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/489c05e004f558a38704fe37584bb6413d7c15b1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/28a631a6d96f7f16f1d48fef70281f4613fb40a9",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/4fbff76f4f1d11a59228aed4bc34640d7c073efe",
+          "width" : 64
+        } ],
+        "name" : "Paperwork (Deluxe Explicit)",
+        "release_date" : "2014-10-17",
+        "release_date_precision" : "day",
+        "total_tracks" : 18,
+        "type" : "album",
+        "uri" : "spotify:album:4FADvCXok2GhepAWLE8Fs1"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4OBJLual30L7gRl5UkeRcT"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4OBJLual30L7gRl5UkeRcT",
+        "id" : "4OBJLual30L7gRl5UkeRcT",
+        "name" : "T.I.",
+        "type" : "artist",
+        "uri" : "spotify:artist:4OBJLual30L7gRl5UkeRcT"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6z7xFFHxYkE9t8bwIF0Bvg"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6z7xFFHxYkE9t8bwIF0Bvg",
+        "id" : "6z7xFFHxYkE9t8bwIF0Bvg",
+        "name" : "Boosie Badazz",
+        "type" : "artist",
+        "uri" : "spotify:artist:6z7xFFHxYkE9t8bwIF0Bvg"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 302706,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USQX91401874"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1CUvhD6JlfcLYhkNDAzmkl"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1CUvhD6JlfcLYhkNDAzmkl",
+      "id" : "1CUvhD6JlfcLYhkNDAzmkl",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel",
+      "popularity" : 35,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f3e95d6b88476b843fabb2dd4cf303308c8c1259?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:1CUvhD6JlfcLYhkNDAzmkl"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4FmJD0mpgQ70SNt2EKK8tq"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4FmJD0mpgQ70SNt2EKK8tq",
+          "id" : "4FmJD0mpgQ70SNt2EKK8tq",
+          "name" : "Miracle Of Sound",
+          "type" : "artist",
+          "uri" : "spotify:artist:4FmJD0mpgQ70SNt2EKK8tq"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6Eb6hpneUONTuRavFzWvmA"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6Eb6hpneUONTuRavFzWvmA",
+        "id" : "6Eb6hpneUONTuRavFzWvmA",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4b10f6e7cc66fd3504cfb3ba6a6b2b769e84c20e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/050bbde011496805a20b86333efd196b8a07efdb",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/62e714400fe1abe2856f3eda95a326e4699c8fca",
+          "width" : 64
+        } ],
+        "name" : "Level 7",
+        "release_date" : "2016-12-09",
+        "release_date_precision" : "day",
+        "total_tracks" : 21,
+        "type" : "album",
+        "uri" : "spotify:album:6Eb6hpneUONTuRavFzWvmA"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4FmJD0mpgQ70SNt2EKK8tq"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4FmJD0mpgQ70SNt2EKK8tq",
+        "id" : "4FmJD0mpgQ70SNt2EKK8tq",
+        "name" : "Miracle Of Sound",
+        "type" : "artist",
+        "uri" : "spotify:artist:4FmJD0mpgQ70SNt2EKK8tq"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 181224,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QZ4JJ1655659"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2xm9KycK3FHZkvJ8KoJwUs"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2xm9KycK3FHZkvJ8KoJwUs",
+      "id" : "2xm9KycK3FHZkvJ8KoJwUs",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel Heart",
+      "popularity" : 25,
+      "preview_url" : "https://p.scdn.co/mp3-preview/384ea9981855d83cfda6b5a7e523ea82f8657fb4?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:2xm9KycK3FHZkvJ8KoJwUs"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s"
+          },
+          "href" : "https://api.spotify.com/v1/artists/6OtUfATGYDnx5O23FP6C2s",
+          "id" : "6OtUfATGYDnx5O23FP6C2s",
+          "name" : "Camp Cope",
+          "type" : "artist",
+          "uri" : "spotify:artist:6OtUfATGYDnx5O23FP6C2s"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7sqgBCQ4ZeQ7NOOhMUMuXa"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7sqgBCQ4ZeQ7NOOhMUMuXa",
+        "id" : "7sqgBCQ4ZeQ7NOOhMUMuXa",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/25a411e5de2082dd7dff05ccb097b10730693519",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0d366f0728ca0b96cfd378dc4f6b24702f2af2f1",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e104211fefa265a39c7e1817c2c67b02be4a22e0",
+          "width" : 64
+        } ],
+        "name" : "Jet Fuel Can't Melt Steel Beams",
+        "release_date" : "2016-03-18",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:7sqgBCQ4ZeQ7NOOhMUMuXa"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6OtUfATGYDnx5O23FP6C2s",
+        "id" : "6OtUfATGYDnx5O23FP6C2s",
+        "name" : "Camp Cope",
+        "type" : "artist",
+        "uri" : "spotify:artist:6OtUfATGYDnx5O23FP6C2s"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 245047,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QMDA71545592"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2mAa82aW0NI51r1qV7h7Gm"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2mAa82aW0NI51r1qV7h7Gm",
+      "id" : "2mAa82aW0NI51r1qV7h7Gm",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel Can't Melt Steel Beams",
+      "popularity" : 24,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d260d45de9eed00a7fcaffd7b7c71afbbe943a19?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2mAa82aW0NI51r1qV7h7Gm"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0HaUSTOJNsJP07vwBnL9na"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0HaUSTOJNsJP07vwBnL9na",
+          "id" : "0HaUSTOJNsJP07vwBnL9na",
+          "name" : "N3w Founded",
+          "type" : "artist",
+          "uri" : "spotify:artist:0HaUSTOJNsJP07vwBnL9na"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3srsjwGVzYex622aev0QMb"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3srsjwGVzYex622aev0QMb",
+        "id" : "3srsjwGVzYex622aev0QMb",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e02eca4e47743f6cf908054e1f6dd8f55d93aa9a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/e020058d86e5c603894b2238f660b7bc03637958",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0d3e96db6a7a7fc90e614521b3d848a63d91c7e5",
+          "width" : 64
+        } ],
+        "name" : "Subl3v3l",
+        "release_date" : "2019-03-02",
+        "release_date_precision" : "day",
+        "total_tracks" : 22,
+        "type" : "album",
+        "uri" : "spotify:album:3srsjwGVzYex622aev0QMb"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0HaUSTOJNsJP07vwBnL9na"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0HaUSTOJNsJP07vwBnL9na",
+        "id" : "0HaUSTOJNsJP07vwBnL9na",
+        "name" : "N3w Founded",
+        "type" : "artist",
+        "uri" : "spotify:artist:0HaUSTOJNsJP07vwBnL9na"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 200532,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCAEC1997596"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1cPt0AgX7bW33rgDdtsI5y"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1cPt0AgX7bW33rgDdtsI5y",
+      "id" : "1cPt0AgX7bW33rgDdtsI5y",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel 2",
+      "popularity" : 26,
+      "preview_url" : "https://p.scdn.co/mp3-preview/7824683abe84b3c753372091d1fa66e276f92eed?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:1cPt0AgX7bW33rgDdtsI5y"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/76EaAz0oJVx8IbnUbDOPmD"
+          },
+          "href" : "https://api.spotify.com/v1/artists/76EaAz0oJVx8IbnUbDOPmD",
+          "id" : "76EaAz0oJVx8IbnUbDOPmD",
+          "name" : "Popa Chubby",
+          "type" : "artist",
+          "uri" : "spotify:artist:76EaAz0oJVx8IbnUbDOPmD"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1fr4advYySvbM76TfPLqIg"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1fr4advYySvbM76TfPLqIg",
+        "id" : "1fr4advYySvbM76TfPLqIg",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/04a145b7c731a1f2f5748e7a40c279ff9b997a71",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/acb754b39a64e1834d99ee2c3115cb0405b7d699",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/f1207e895f9c31087387f036d48342d4d0771f35",
+          "width" : 64
+        } ],
+        "name" : "The Good the Bad and the Chubby",
+        "release_date" : "2002",
+        "release_date_precision" : "year",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:1fr4advYySvbM76TfPLqIg"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/76EaAz0oJVx8IbnUbDOPmD"
+        },
+        "href" : "https://api.spotify.com/v1/artists/76EaAz0oJVx8IbnUbDOPmD",
+        "id" : "76EaAz0oJVx8IbnUbDOPmD",
+        "name" : "Popa Chubby",
+        "type" : "artist",
+        "uri" : "spotify:artist:76EaAz0oJVx8IbnUbDOPmD"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 240613,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "FRE260200020"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/09QWBot0VR9HpMibDyVJtU"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/09QWBot0VR9HpMibDyVJtU",
+      "id" : "09QWBot0VR9HpMibDyVJtU",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "If the Diesel don't Get you then the Jet Fuel Will",
+      "popularity" : 15,
+      "preview_url" : "https://p.scdn.co/mp3-preview/567687bd5a82ea62a990eccbd8a18a07ca3dda55?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:09QWBot0VR9HpMibDyVJtU"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4FmJD0mpgQ70SNt2EKK8tq"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4FmJD0mpgQ70SNt2EKK8tq",
+          "id" : "4FmJD0mpgQ70SNt2EKK8tq",
+          "name" : "Miracle Of Sound",
+          "type" : "artist",
+          "uri" : "spotify:artist:4FmJD0mpgQ70SNt2EKK8tq"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5rkkHsHy7GWllbfQqW25Nv"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5rkkHsHy7GWllbfQqW25Nv",
+        "id" : "5rkkHsHy7GWllbfQqW25Nv",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/6ce3e6023f8ad00d9b424107a493307d902ab901",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/f732c6040cc842f44c46bfc54305913de2338451",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/37cfa7ea0253e56180b74277388a012e538a884b",
+          "width" : 64
+        } ],
+        "name" : "Jet Fuel Heart",
+        "release_date" : "2016-04-30",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:5rkkHsHy7GWllbfQqW25Nv"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4FmJD0mpgQ70SNt2EKK8tq"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4FmJD0mpgQ70SNt2EKK8tq",
+        "id" : "4FmJD0mpgQ70SNt2EKK8tq",
+        "name" : "Miracle Of Sound",
+        "type" : "artist",
+        "uri" : "spotify:artist:4FmJD0mpgQ70SNt2EKK8tq"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 179841,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACO1615583"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5yXwAyZ9sLBlEMqIeQFZUo"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5yXwAyZ9sLBlEMqIeQFZUo",
+      "id" : "5yXwAyZ9sLBlEMqIeQFZUo",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel Heart",
+      "popularity" : 15,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b71faad12268cc8bebfb44c3cb18f69e2232902e?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5yXwAyZ9sLBlEMqIeQFZUo"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s"
+          },
+          "href" : "https://api.spotify.com/v1/artists/6OtUfATGYDnx5O23FP6C2s",
+          "id" : "6OtUfATGYDnx5O23FP6C2s",
+          "name" : "Camp Cope",
+          "type" : "artist",
+          "uri" : "spotify:artist:6OtUfATGYDnx5O23FP6C2s"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5Rc2d40cVhNUNGF3Dux8pL"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5Rc2d40cVhNUNGF3Dux8pL",
+        "id" : "5Rc2d40cVhNUNGF3Dux8pL",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/39b85e51bc7d9d76ef8a71f42acfc056fdd32ce3",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/46b55414bb4ccde9377760dcff55d2a0b740a85e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ef9b07be7b1133b08c6f25486e46778c57e35c60",
+          "width" : 64
+        } ],
+        "name" : "Camp Cope on Audiotree Live",
+        "release_date" : "2017-08-15",
+        "release_date_precision" : "day",
+        "total_tracks" : 6,
+        "type" : "album",
+        "uri" : "spotify:album:5Rc2d40cVhNUNGF3Dux8pL"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6OtUfATGYDnx5O23FP6C2s",
+        "id" : "6OtUfATGYDnx5O23FP6C2s",
+        "name" : "Camp Cope",
+        "type" : "artist",
+        "uri" : "spotify:artist:6OtUfATGYDnx5O23FP6C2s"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 256236,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QM99V1706902"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7jWNUAmDMXhiSqFuV2hwlF"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7jWNUAmDMXhiSqFuV2hwlF",
+      "id" : "7jWNUAmDMXhiSqFuV2hwlF",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel Can't Melt Steel Beams - Audiotree Live Version",
+      "popularity" : 21,
+      "preview_url" : "https://p.scdn.co/mp3-preview/44f9a1d5676a98b162406db4d83ba34c43969b01?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:7jWNUAmDMXhiSqFuV2hwlF"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22fPcevQUN3QGwmmK7l2mv"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22fPcevQUN3QGwmmK7l2mv",
+          "id" : "22fPcevQUN3QGwmmK7l2mv",
+          "name" : "Vivid Scientific",
+          "type" : "artist",
+          "uri" : "spotify:artist:22fPcevQUN3QGwmmK7l2mv"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0NFblyfCzptlfS0VDCYycw"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0NFblyfCzptlfS0VDCYycw",
+          "id" : "0NFblyfCzptlfS0VDCYycw",
+          "name" : "Professor Q",
+          "type" : "artist",
+          "uri" : "spotify:artist:0NFblyfCzptlfS0VDCYycw"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3c6c83gdnxDeRPtJaVlF3t"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3c6c83gdnxDeRPtJaVlF3t",
+        "id" : "3c6c83gdnxDeRPtJaVlF3t",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/2b337ce1ccc7fff8446d529d047ee1cc494d9381",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/5904ca507ba687b28ba4896c0c16245a80abeb61",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/2e6c928d4404ed6dc156fd0cb482bd589985bc33",
+          "width" : 64
+        } ],
+        "name" : "ProScience",
+        "release_date" : "2018-12-11",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:3c6c83gdnxDeRPtJaVlF3t"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22fPcevQUN3QGwmmK7l2mv"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22fPcevQUN3QGwmmK7l2mv",
+        "id" : "22fPcevQUN3QGwmmK7l2mv",
+        "name" : "Vivid Scientific",
+        "type" : "artist",
+        "uri" : "spotify:artist:22fPcevQUN3QGwmmK7l2mv"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0NFblyfCzptlfS0VDCYycw"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0NFblyfCzptlfS0VDCYycw",
+        "id" : "0NFblyfCzptlfS0VDCYycw",
+        "name" : "Professor Q",
+        "type" : "artist",
+        "uri" : "spotify:artist:0NFblyfCzptlfS0VDCYycw"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 144459,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QZES91844964"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/60GXpcdMWTecbWS5zyM5oE"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/60GXpcdMWTecbWS5zyM5oE",
+      "id" : "60GXpcdMWTecbWS5zyM5oE",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Jet Fuel",
+      "popularity" : 6,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c52126d3e775e1513aaf27ab77cb4d2be90d164c?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 13,
+      "type" : "track",
+      "uri" : "spotify:track:60GXpcdMWTecbWS5zyM5oE"
+    } ],
+    "limit" : 10,
+    "next" : "https://api.spotify.com/v1/search?query=+jet+fuel&type=track&market=NL&offset=10&limit=10",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 248
+  }
+}

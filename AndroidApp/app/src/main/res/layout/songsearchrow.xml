@@ -7,7 +7,7 @@
     <ImageView
             android:layout_width="71dp"
             android:layout_height="82dp" app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/imageView"
+            android:id="@+id/imageView_albumcover"
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.0"
@@ -34,10 +34,37 @@
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/textView_songlink" app:layout_constraintEnd_toStartOf="@+id/textView_songduration"
+            android:visibility="invisible"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.111"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_songId" app:layout_constraintEnd_toStartOf="@+id/textView_songduration"
+            android:visibility="invisible"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.111"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_songAlbumCoverLink" app:layout_constraintEnd_toStartOf="@+id/textView_songduration"
+            android:visibility="invisible"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.111"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/textView_songduration"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/imageView_albumcover"
             android:layout_marginEnd="53dp" android:layout_marginStart="3dp"
-            app:layout_constraintStart_toEndOf="@+id/imageView" android:layout_marginTop="40dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView_albumcover" android:layout_marginTop="40dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="39dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintVertical_bias="0.0"/>

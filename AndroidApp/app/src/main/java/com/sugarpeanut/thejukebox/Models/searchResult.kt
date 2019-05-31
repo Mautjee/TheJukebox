@@ -23,7 +23,7 @@ data class Item(
     //val explicit: Boolean,
     //val external_ids: ExternalIds,
     //val external_urls: ExternalUrlsXX,
-    //val href: String,
+    val href: String,
     val id: String,
     //val is_local: Boolean,
     val is_playable: Boolean,
