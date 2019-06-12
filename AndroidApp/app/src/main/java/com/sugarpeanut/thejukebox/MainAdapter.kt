@@ -10,8 +10,9 @@ import kotlinx.android.synthetic.main.songmainrow.view.*
 
 
 
-class mainAdapter(val playlist: Playlist):RecyclerView.Adapter<CustomViewHolder_main>(){
+class mainAdapter():RecyclerView.Adapter<MainActivatyViewHolder>(){
 
+    private lateinit var playlist:Playlist
 
     // number of rows
     override fun getItemCount(): Int {
@@ -19,13 +20,13 @@ class mainAdapter(val playlist: Playlist):RecyclerView.Adapter<CustomViewHolder_
 
     }
 
-    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): CustomViewHolder_main {
+    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): MainActivatyViewHolder {
         val layoutInflater = LayoutInflater.from(p0.context)
         val cellForRo = layoutInflater.inflate(R.layout.songmainrow,p0,false)
-        return CustomViewHolder_main(cellForRo)
+        return MainActivatyViewHolder(cellForRo)
     }
 
-    override fun onBindViewHolder(p0: CustomViewHolder_main, p1: Int) {
+    override fun onBindViewHolder(p0: MainActivatyViewHolder, p1: Int) {
         val song = playlist.songs.get(p1)
 
 
@@ -39,8 +40,13 @@ class mainAdapter(val playlist: Playlist):RecyclerView.Adapter<CustomViewHolder_
 
 
     }
+
+    fun changePlalist(playlist: Playlist){
+        this.playlist = playlist
+        notifyDataSetChanged()
+    }
 }
 
-class CustomViewHolder_main(val view:View): RecyclerView.ViewHolder(view){
+class MainActivatyViewHolder(val view:View): RecyclerView.ViewHolder(view){
 
 }

@@ -17,6 +17,7 @@ import kotlinx.android.synthetic.main.songsearchrow.view.textView_songartist
 import kotlinx.android.synthetic.main.songsearchrow.view.textView_songduration
 import kotlinx.android.synthetic.main.songsearchrow.view.textview_songname
 import android.app.Activity
+import android.util.Log
 import com.sugarpeanut.thejukebox.Models.addSong
 import okhttp3.*
 import java.io.IOException
@@ -24,7 +25,6 @@ import java.io.IOException
 
 class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<CustomViewHolder_search>(){
 
-    val songTitles = listOf<String>("First song title","Second song tilte", "Third song title")
 
     // number of rows
     override fun getItemCount(): Int {
@@ -53,6 +53,7 @@ class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<Custom
 class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
     val gson = Gson()
 
+
     init {
         view.setOnClickListener {
 
@@ -65,6 +66,7 @@ class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
             addNewSong(songJson)
 
         }
+
     }
 
     fun addNewSong(song:String){
@@ -72,7 +74,7 @@ class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
 
         val MEDIA_TYPE = MediaType.parse("application/json")
 
-        val url = "http://10.0.2.2:8080/playlist/addsong"
+        val url = "http://10.0.2.2:8099/playlist/addsong"
 
         val client = OkHttpClient()
 
@@ -80,8 +82,8 @@ class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
 
         val songToAdd = addSong(0,song)
 
-
-        val body = RequestBody.create(MEDIA_TYPE, gson.toJson(songToAdd))
+        val bodyobject = gson.toJson(songToAdd)
+        val body = RequestBody.create(MEDIA_TYPE, bodyobject)
 
         val request = Request.Builder()
             .url(url)
@@ -94,7 +96,7 @@ class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
 
             override fun onResponse(call: Call, response: Response) {
                 val body = response.body()?.string()
-
+                Log.i("ADDSONG",body)
                 (view.context as Activity).finish()
             }
 

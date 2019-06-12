@@ -14,6 +14,7 @@ import com.spotify.sdk.android.authentication.AuthenticationRequest
 import com.spotify.sdk.android.authentication.AuthenticationResponse
 
 import com.sugarpeanut.thejukebox.Models.*
+import com.sugarpeanut.thejukebox.Websockets.SocketService
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 
@@ -30,14 +31,20 @@ class MainActivity : AppCompatActivity() {
 
     val gson = GsonBuilder().create()
     var hasToken = false
+
+    val adapter = mainAdapter()
+
     private val CLIENT_ID = "0b2b8eeca00344bb81cc5fd1f46a36eb"
     private val REDIRECT_URI = "http://www.thejukebox.com/login"
+
+   // private lateinit var websocket:WebSocket
 
     private val REQUEST_CODE = 1337
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
         //setSupportActionBar(findViewById(R.id.my_toolbar))
 
@@ -47,13 +54,12 @@ class MainActivity : AppCompatActivity() {
 
         getFullPlaylist()
 
-
         if(!hasToken){
             getSpotifyToken()
             hasToken = true
         }
 
-
+        //instantiateWensockets()
 
     }
 
@@ -62,7 +68,8 @@ class MainActivity : AppCompatActivity() {
         val song = Song("1","No numbers in the playlist","11", "https://previews.123rf.com/images/leventegyori/leventegyori1510/leventegyori151000012/47713326-geschilderd-x-teken-op-wit-wordt-ge%C3%AFsoleerd.jpg","No Songs",1)
         val songlist = listOf(song)
         val playlist = Playlist(0,songlist)
-        recyclresViw_main.adapter = mainAdapter(playlist)
+        adapter.changePlalist(playlist)
+        recyclresViw_main.adapter = adapter
     }
 
     private fun getSpotifyToken() {
@@ -83,7 +90,7 @@ class MainActivity : AppCompatActivity() {
     fun getFullPlaylist(){
         println("Attempting to get the full playlist")
 
-        val url = "http://10.0.2.2:8080/playlist/getall"
+        val url = "http://10.0.2.2:8099/playlist/getall"
 
         val request = Request.Builder().url(url).build()
 
@@ -96,10 +103,11 @@ class MainActivity : AppCompatActivity() {
                // println(body)
 
 
-                val result = gson.fromJson(body,Playlist::class.java)
+                    val result = gson.fromJson(body,Playlist::class.java)
                 if(result.songs.isNotEmpty()){
                     runOnUiThread{
-                        recyclresViw_main.adapter = mainAdapter(result)
+                        adapter.changePlalist(result)
+                        recyclresViw_main.adapter = adapter
                     }
                 }else{
 
@@ -109,12 +117,20 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call, e: IOException) {
-                println("Faild to execute" + e.message)
+                Log.e("FullPlaylist_Call",e.message)
+
             }
         })
 
     }
 
+//    private suspend fun instantiateWensockets(){
+//        val client = OkHttpClient()
+//        val theRequest = Request.Builder().url("ws://10.0.2.2:8080/ws").build()
+//        val socketlistener = SocketService(this)
+//        websocket = client.newWebSocket(theRequest,socketlistener)
+//
+//    }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, intent: Intent?) {
         super.onActivityResult(requestCode, resultCode, intent)
@@ -135,5 +151,7 @@ class MainActivity : AppCompatActivity() {
             }// Most likely auth flow was cancelled
         }
     }
-
+//    fun sendMessage(message:String){
+//        websocket.send(message)
+//    }
 }
