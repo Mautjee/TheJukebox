@@ -19,7 +19,9 @@ class Playlist(){
         //}
 
     }
-
+    fun getSpecificSong(songId: String): Song?{
+        return songs.find { it.songId == songId }
+    }
     fun likeASong(songId:String){
 
        val song = songs.find{ it.songId == songId }

@@ -1,5 +1,7 @@
 package TheJukebox
 
+import Models.Playlist
+import Models.Song
 import io.ktor.application.*
 import io.ktor.response.*
 import io.ktor.request.*
@@ -28,18 +30,26 @@ import kotlinx.coroutines.io.*
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.engine.jetty.*
-import io.ktor.client.features.json.*
 import kotlin.test.*
 import io.ktor.server.testing.*
 
 class ApplicationTest {
     @Test
     fun testRoot() {
-        withTestApplication({ module(testing = true) }) {
+        withTestApplication() {
             handleRequest(HttpMethod.Get, "/").apply {
                 assertEquals(HttpStatusCode.OK, response.status())
-                assertEquals("HELLO WORLD!", response.content)
+                assertEquals("Welcome to the Jukebox API", response.content)
             }
         }
+    }
+    @Test
+    fun getplaylist(){
+//        val song = Song()
+        withTestApplication {
+            with(handleRequest(HttpMethod.Get, "/playlist/addsong")) {
+
+            assertEquals("Song has been added", response.content)
+        } }
     }
 }

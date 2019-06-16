@@ -23,7 +23,7 @@ import okhttp3.*
 import java.io.IOException
 
 
-class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<CustomViewHolder_search>(){
+class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<searchCustomViewHolder>(){
 
 
     // number of rows
@@ -31,13 +31,13 @@ class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<Custom
         return searchResult.tracks.items.count()
     }
 
-    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): CustomViewHolder_search {
+    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): searchCustomViewHolder {
         val layoutInflater = LayoutInflater.from(p0.context)
         val cellForRo = layoutInflater.inflate(R.layout.songsearchrow,p0,false)
-        return CustomViewHolder_search(cellForRo)
+        return searchCustomViewHolder(cellForRo)
     }
 
-    override fun onBindViewHolder(p0: CustomViewHolder_search, p1: Int) {
+    override fun onBindViewHolder(p0: searchCustomViewHolder, p1: Int) {
         val song = searchResult.tracks.items.get(p1)
         p0.view.textview_songname.text = song.name
         p0.view.textView_songartist.text = song.artists[0].name
@@ -50,7 +50,7 @@ class searchAdapter(val searchResult: searchResult): RecyclerView.Adapter<Custom
     }
 }
 
-class CustomViewHolder_search(val view:View): RecyclerView.ViewHolder(view){
+class searchCustomViewHolder(val view:View): RecyclerView.ViewHolder(view){
     val gson = Gson()
 
 

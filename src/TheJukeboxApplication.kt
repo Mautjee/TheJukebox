@@ -1,6 +1,8 @@
 
 
 import Models.*
+import Server.IServer
+import Server.TheJukeboxServer
 import com.google.gson.GsonBuilder
 import io.ktor.websocket.WebSockets
 import io.ktor.application.*
@@ -22,8 +24,8 @@ import io.ktor.sessions.*
 import io.ktor.util.generateNonce
 import io.ktor.util.hex
 import io.ktor.websocket.webSocket
-import kotlinx.coroutines.channels.ClosedReceiveChannelException
 import kotlinx.coroutines.channels.consumeEach
+import org.eclipse.jetty.http.HttpStatus
 
 
 var accesTokenSpotify : OAuthAccessTokenResponse.OAuth2? = null
@@ -32,7 +34,7 @@ var accesTokenSpotify : OAuthAccessTokenResponse.OAuth2? = null
 val gson = GsonBuilder().create()
 class JukeSession(val userId: String)
 
-val server = TheJukeboxServer()
+val server:IServer = TheJukeboxServer()
 
 fun main(args: Array<String>) {
     embeddedServer(Netty,host = "www.thejukebox.com", port = 8099) {
@@ -59,8 +61,8 @@ fun main(args: Array<String>) {
         }
         routing {
             get("/") {
-
-                
+                call.response.status(HttpStatusCode.OK)
+                call.respondText("Welcome to the Jukebox API")
             }
             route("/playlist"){
                 get("/getall"){
@@ -95,18 +97,6 @@ fun main(args: Array<String>) {
                 post("/dislikesong"){
 
                 }
-            }
-            route("/juke"){
-                post("/make"){
-
-                }
-                get("/get"){
-
-                }
-                delete("/delete"){
-
-                }
-
             }
             routing {
                 webSocket("/ws") {
@@ -148,6 +138,9 @@ private suspend fun reivedMessage(userId:String,command:String){
         WebsocketActions.NewSong -> {
             val song = gson.fromJson(message.Message,Song::class.java)
            server.addSong(userId,song)
+        }
+        WebsocketActions.NewLike ->{
+            server.likeASong(userId,message.Message)
         }
     }
 
