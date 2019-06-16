@@ -1,0 +1,708 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=mac+miller&type=track&market=NL&offset=0&limit=10",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6f6tko6NWoH00cyFOl4VYQ",
+        "id" : "6f6tko6NWoH00cyFOl4VYQ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ba53abe8e80c4127e5bc8bec23af81e5a6225093",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/b45ae1f1f1a1d7821f3387585c6032f57cb98085",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/422cbfee34c37a70c6e6fae512e5d2cc940cd2e9",
+          "width" : 64
+        } ],
+        "name" : "The Divine Feminine",
+        "release_date" : "2016-09-16",
+        "release_date_precision" : "day",
+        "total_tracks" : 10,
+        "type" : "album",
+        "uri" : "spotify:album:6f6tko6NWoH00cyFOl4VYQ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa",
+        "id" : "3jK9MiCrA42lLAdMGUZpwa",
+        "name" : "Anderson .Paak",
+        "type" : "artist",
+        "uri" : "spotify:artist:3jK9MiCrA42lLAdMGUZpwa"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 305350,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11601217"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5iUQMwxUPdJBFeGkePtM66"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5iUQMwxUPdJBFeGkePtM66",
+      "id" : "5iUQMwxUPdJBFeGkePtM66",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Dang! (feat. Anderson .Paak)",
+      "popularity" : 72,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3e1d6ac23099c42068fff3f52c3fa8ddad86d36f?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:5iUQMwxUPdJBFeGkePtM66"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 345133,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801215"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5bJ1DrEM4hNCafcDd1oxHx"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5bJ1DrEM4hNCafcDd1oxHx",
+      "id" : "5bJ1DrEM4hNCafcDd1oxHx",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Self Care",
+      "popularity" : 77,
+      "preview_url" : "https://p.scdn.co/mp3-preview/0d9af259d04efa68f88bd1ca8d85a75df32fd647?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:5bJ1DrEM4hNCafcDd1oxHx"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 287040,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801217"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/39NDBdU5Xkm5pCFGa5kZtI"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/39NDBdU5Xkm5pCFGa5kZtI",
+      "id" : "39NDBdU5Xkm5pCFGa5kZtI",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Ladders",
+      "popularity" : 74,
+      "preview_url" : "https://p.scdn.co/mp3-preview/7eb7764aa95b2b7978a0359df7140cf9382f00b5?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:39NDBdU5Xkm5pCFGa5kZtI"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 288640,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801213"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2dgrYdgguVZKeCsrVb9XEs"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2dgrYdgguVZKeCsrVb9XEs",
+      "id" : "2dgrYdgguVZKeCsrVb9XEs",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "What's the Use?",
+      "popularity" : 71,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ce5a2f2092a8a51ac05b9979057732b89cac50c0?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:2dgrYdgguVZKeCsrVb9XEs"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6f6tko6NWoH00cyFOl4VYQ",
+        "id" : "6f6tko6NWoH00cyFOl4VYQ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ba53abe8e80c4127e5bc8bec23af81e5a6225093",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/b45ae1f1f1a1d7821f3387585c6032f57cb98085",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/422cbfee34c37a70c6e6fae512e5d2cc940cd2e9",
+          "width" : 64
+        } ],
+        "name" : "The Divine Feminine",
+        "release_date" : "2016-09-16",
+        "release_date_precision" : "day",
+        "total_tracks" : 10,
+        "type" : "album",
+        "uri" : "spotify:album:6f6tko6NWoH00cyFOl4VYQ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+        "id" : "66CXWjxzNUsdJxJ2JdwvnR",
+        "name" : "Ariana Grande",
+        "type" : "artist",
+        "uri" : "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 216000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWB11601441"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/66wkCYWlXzSTQAfnsPBptt"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/66wkCYWlXzSTQAfnsPBptt",
+      "id" : "66wkCYWlXzSTQAfnsPBptt",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "My Favorite Part",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/97dadcaa4a600d2e8ad1e28d2e66f04ac051c268?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 9,
+      "type" : "track",
+      "uri" : "spotify:track:66wkCYWlXzSTQAfnsPBptt"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 245640,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801212"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5p7GiBZNL1afJJDUrOA6C8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5p7GiBZNL1afJJDUrOA6C8",
+      "id" : "5p7GiBZNL1afJJDUrOA6C8",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Hurt Feelings",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3f3bb12e4f55cd06cdc3829a1f7f02bd11616422?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:5p7GiBZNL1afJJDUrOA6C8"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2Tyx5dLhHYkx6zeAdVaTzN"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2Tyx5dLhHYkx6zeAdVaTzN",
+        "id" : "2Tyx5dLhHYkx6zeAdVaTzN",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/af93e49425b91896bf83178a3560fc6b24ce0904",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/510c1f2ef8ed1dbdc91c4f1450b3261ac2b797ca",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/4ec95d6429cb89bd1d5ea9f96da8980bdadfef31",
+          "width" : 64
+        } ],
+        "name" : "GO:OD AM",
+        "release_date" : "2015-09-18",
+        "release_date_precision" : "day",
+        "total_tracks" : 17,
+        "type" : "album",
+        "uri" : "spotify:album:2Tyx5dLhHYkx6zeAdVaTzN"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK"
+        },
+        "href" : "https://api.spotify.com/v1/artists/360IAlyVv4PCEVjgyMZrxK",
+        "id" : "360IAlyVv4PCEVjgyMZrxK",
+        "name" : "Miguel",
+        "type" : "artist",
+        "uri" : "spotify:artist:360IAlyVv4PCEVjgyMZrxK"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 208080,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11508643"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6GnhWMhgJb7uyiiPEiEkDA",
+      "id" : "6GnhWMhgJb7uyiiPEiEkDA",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Weekend (feat. Miguel)",
+      "popularity" : 74,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ba630b579a7db8ffa5a57ce756841bf66b244209?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:6GnhWMhgJb7uyiiPEiEkDA"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 161840,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWB11801211"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/01z2fBGB8Hl3Jd3zXe4IXR"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/01z2fBGB8Hl3Jd3zXe4IXR",
+      "id" : "01z2fBGB8Hl3Jd3zXe4IXR",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Come Back to Earth",
+      "popularity" : 72,
+      "preview_url" : "https://p.scdn.co/mp3-preview/df6cba8215d6607251ad69e032445df6538b7289?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:01z2fBGB8Hl3Jd3zXe4IXR"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5wtE5aLX5r7jOosmPhJhhk",
+        "id" : "5wtE5aLX5r7jOosmPhJhhk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/00f1b797cf233069db9eec18683cee4a47d95171",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6dd91ca36a8dd29918947232b682f970a6fada36",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c7d0595212796c5f3e9e5a4f26be291af0ab6b40",
+          "width" : 64
+        } ],
+        "name" : "Swimming",
+        "release_date" : "2018-08-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:5wtE5aLX5r7jOosmPhJhhk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 347986,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USWB11801221"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6dFn6my1sHK2bcf23GlHwM"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6dFn6my1sHK2bcf23GlHwM",
+      "id" : "6dFn6my1sHK2bcf23GlHwM",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "2009",
+      "popularity" : 70,
+      "preview_url" : "https://p.scdn.co/mp3-preview/440fa19ee88d93955abb35c5eb2ba1c66b5e9f58?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:6dFn6my1sHK2bcf23GlHwM"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+          "id" : "4LLpKhyESsyAXpc4laK94U",
+          "name" : "Mac Miller",
+          "type" : "artist",
+          "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+        } ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6eFkuEfykAUpthUiUeu3zw"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6eFkuEfykAUpthUiUeu3zw",
+        "id" : "6eFkuEfykAUpthUiUeu3zw",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/bf81fb3dcf4800ee72927b86d26134b7abd5aa0f",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d624081d65e7aa9a83786e6ce85c3b3703d20188",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e99d60b1c443dd93b2b837c98ad126eeb23d50ea",
+          "width" : 64
+        } ],
+        "name" : "Donald Trump - Single",
+        "release_date" : "2011-05-17",
+        "release_date_precision" : "day",
+        "total_tracks" : 2,
+        "type" : "album",
+        "uri" : "spotify:album:6eFkuEfykAUpthUiUeu3zw"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "id" : "4LLpKhyESsyAXpc4laK94U",
+        "name" : "Mac Miller",
+        "type" : "artist",
+        "uri" : "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      } ],
+      "disc_number" : 1,
+      "duration_ms" : 165908,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USA2P1173908"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3uulVrxiI7iLTjOBZsaiF8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3uulVrxiI7iLTjOBZsaiF8",
+      "id" : "3uulVrxiI7iLTjOBZsaiF8",
+      "is_local" : false,
+      "is_playable" : true,
+      "name" : "Donald Trump",
+      "popularity" : 66,
+      "preview_url" : "https://p.scdn.co/mp3-preview/2698b29837bdc2531324f0ab612572991b8a647d?cid=0b2b8eeca00344bb81cc5fd1f46a36eb",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3uulVrxiI7iLTjOBZsaiF8"
+    } ],
+    "limit" : 10,
+    "next" : "https://api.spotify.com/v1/search?query=mac+miller&type=track&market=NL&offset=10&limit=10",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 532
+  }
+}
