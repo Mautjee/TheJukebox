@@ -1,4 +1,6 @@
 # TheJukebox
-Big Idea assignment
+The Jukebox
 
-Dit is de eerste commit
+- Server API (Kotlin) /
+- IOS Application (Swift) /AndroidApp
+- Android Application (Kotlin) /IOSApp
